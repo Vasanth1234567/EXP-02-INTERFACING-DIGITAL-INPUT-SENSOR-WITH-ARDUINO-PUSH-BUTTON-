@@ -69,6 +69,27 @@ FIGURE -03
 PROGRAM 
  
  
+```
+int button=0;
+int led=12;
+void setup()
+{
+  pinMode(2,INPUT);
+  pinMode(led, OUTPUT);
+}
+
+void loop()
+{
+  button=digitalRead(2);
+  if(button==HIGH){
+  digitalWrite(led, HIGH);
+  }
+  else{
+  digitalWrite(led, LOW);
+  } 
+  delay(10);
+}
+```
  
  
  
@@ -77,5 +98,13 @@ PROGRAM
 
 Output of the simulation :
 
-[My image](username.github.com/repository/img/image.jpg)
+Before Simulation:
+
+![Before](https://user-images.githubusercontent.com/86919099/234001745-45e6e6a4-fb11-4993-85e1-fdf5b2129f83.png)
+
+
+After Simulation:
+
+![After](https://user-images.githubusercontent.com/86919099/234001827-20fbb5c2-d93a-46b8-bcb6-67d5f23b589d.png)
+
 
