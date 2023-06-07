@@ -107,4 +107,5 @@ After Simulation:
 
 ![After](https://user-images.githubusercontent.com/86919099/234001827-20fbb5c2-d93a-46b8-bcb6-67d5f23b589d.png)
 
-
+# RESULT:
+We got led blinking using Push Button.
